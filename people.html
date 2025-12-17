@@ -3,25 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team name - People</title>
+    <title>People | Dead Reckoning</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <div class="container">
-            <h1>Team name</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="people.html">People</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <h2>Team member</h2>
-        </div>
-    </main>
-</body>
-</html>
+            <h1>People</h1>
+            <p class="subtitle">Dead Reckoning - Toward UAV Location Integrity &amp; Awareness</p>
+
+            <nav class="nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" href="people.html">People</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="card">
+                <div class="person">
+                    <h2>Dr. Jinoh Kim</h2>
+                    <p class="role">Professor of Computer Science (ETAMU)</p>
+                    <p><strong>Research interest:</strong>Deep sequence analytics, Autonomous decision and control, Anomaly detection, IoT and distributed systems</p>
+                </div>
+
+                <div class="person">
+                    <h2>Ms. Iyanuoluwa Alegbeleye</h2>
+                    <p class="role">Undergraduate Research Assistant (ETAMU)</p>
+                    <p><strong>Research interest:</strong> <em>Deep sequence learning, pretrained temporal and transformer based models and anomaly detection for UAV analysis and location integrity assurance</em></p>
+                </div>
+
+                <div class="person">
+                    <h2>Ms. Prajeena Maharjan</h2>
+                    <p class="role">Graduate Research Assistant (ETAMU)</p>
+                    <p><strong>Research interest:</strong> <em>(Add Here) </em></p>
+                </div>
+
+                <div class="person">
+                    <h2>Mr.Shinhwan Kim</h2>
+                    <p class="role">Graduate Research Assistant (ETAMU)</p>
+                    <p><strong>Research interest:</strong> <em>(Add Here) </em></p>
+                </div>
+
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container">
+                <small><&copy; <span id="y"></span> UAV Dead Reckoning</small>
+            </div>
+        </footer>
+
+        <script>
+            document.getElementById("y").textContent = new Date().getFullYear();
+        </script>
+    </body>
+    </html>
