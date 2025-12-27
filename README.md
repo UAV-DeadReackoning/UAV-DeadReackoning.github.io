@@ -1,14 +1,13 @@
 # UAV Dead Reckoning Project Website
 
-This repository hosts the **official GitHub Pages website** for the **UAV Dead Reckoning** research project.
+This official repository for the **official GitHub Pages website** for the **UAV Dead Reckoning** research project.
 
 **Live site:** https://uav-deadreackoning.github.io
-Unmanned Aerial Vehicles (UAVs) are widely used in applications such as agriculture, disaster response, surveillance, and autonomous navigation. 
-Many UAV systems rely heavily on GPS for localization, which makes them vulnerable to signal unavailability and adversarial attacks such as GPS spoofing.
+Unmanned aerial vehicles (UAVs) are an integral part of agricultural systems, disaster response, surveillance, and autonomous navigation.
+UAVs are primarily GPS-based systems that can suffer from loss of signal and adversarial techniques, such as GPS spoofing.
 
 ## Project overview
-The UAV Dead Reckoning project investigates **trajectory-based, data-driven approaches** to ensure **location integrity and situational awareness**, even in GPS-denied or compromised environments. 
-Inspired by the classical concept of *dead reckoning*, this work leverages UAV motion dynamics and deep sequence learning models to detect anomalies and estimate trustworthy location states.
+Unmanned Aerial Vehicles (UAVs) are a common fact of life, deployed in various areas, including agriculture, crisis intervention, and military use, where precise location and knowledge of their surroundings are essential. In these challenging conditions, associated with signal limitations such as congested urban environments, serious challenges arise, including similar issues of signal compromise to those that occurred with GPS spoofing. This project aims to leverage more data-driven operations in UAVs and reduce dependence on GPS, potentially endangering the UAV’s integrity in different locations.
 
 ## Research Focus
 Key research themes include:
@@ -30,7 +29,7 @@ Key research themes include:
 ## Repository Purpose
 
 This repository is **only for the project website**.  
-It contains static HTML/CSS files used to publish the research overview and team information via **GitHub Pages**.
+It contains HTML/CSS files used to publish the research overview and team information via **GitHub Pages**.
 
 **It does NOT contain:**
 - Experimental code
